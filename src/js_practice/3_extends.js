@@ -25,7 +25,7 @@ class TrialUser extends User {
   var anonDude = new User("Anonymous");
   anonDude.greet();
   anonDude.status();
-​
+
 //Instance of TrialUser class
   var trialUser = new TrialUser("Paul");
   trialUser.greet();
