@@ -16,7 +16,7 @@ console.log(instructor_name);
 const instructorNames = instructors.map(instructor => instructor.name);
 console.log(instructorNames);
 
-const instructorInfo = `${instructor.map(instructor => ${instructor.name}: ${instructors.specialty});
+//const instructorInfo = `${instructor.map(instructor => ${instructor.name}: ${instructors.specialty});
 
 //Literally asked in an interview
 
@@ -33,3 +33,4 @@ var reformattedArray = kvArray.map(obj => {
     rObj[obj.key] = obj.value;
     console.log(rObj);
     return rObj;
+})
